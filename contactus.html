@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact us form</title>
+    <style type="text/css">
+        .r {
+            width:50%;
+            height: 480px;
+            color: black;
+            margin-right: 20px;
+            background-color: palevioletred;
+            float: left;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 25px;
+        }
+
+        .r1 {
+            width: 45%;
+            height: 450px;
+            background-color: aqua;
+            float: left;
+            text-align: center;
+            border-radius: 25px;
+            padding-top: 60px;
+            padding-left: 20px;
+        }
+
+        .r2 {
+            margin-top: 12px;
+            width: 30%;
+            height: 100px;
+            background-color: peru;
+            float: left;
+            border-radius: 25px;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            padding-left: 35px;
+        }
+
+        .ra {
+            width: 100%;
+            height: 100px;
+            background-color: aquamarine;
+            border-radius: 25px;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <!--inline css-->
+    <div class="ra">
+        <img src="nsec_logo.jpg" alt="image" style="height:auto; width: 60px; padding: 15px;">
+            &emsp;&emsp;
+            &emsp;&emsp;
+            <label>Home</label>
+            &emsp;&emsp;
+            &emsp;&emsp;
+            <label>About us</label>
+            &emsp;&emsp;
+            &emsp;&emsp;
+            <label>Faculties</label>
+            &emsp;&emsp;
+            &emsp;&emsp;
+            <label>Students</label>
+            &emsp;&emsp;
+            &emsp;&emsp;
+            <label>contact us</label>
+            &emsp;&emsp;
+            &emsp;&emsp;
+            <label>contact us page</label>
+            <label></label>
+    </div>
+    <div class="r">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.746472949955!2d88.41274391495783!3d22.476159585232413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02722b05a38e87%3A0x276c0d30e6be12ea!2sNetaji%20Subhash%20Engineering%20College!5e0!3m2!1sen!2sin!4v1584947004660!5m2!1sen!2sin"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+    <div class="r1">
+        <center>Contact us form</center>
+        <br />
+        <br />
+        <br />
+        <form action="contactus.php" method="POST">
+            Name :&nbsp&nbsp <input type="text" name="name" placeholder="Full Name" /><br>
+            <br />
+            Email :&nbsp&nbsp <input type="text" name="email" placeholder="Email" /><br>
+            <br />
+            Mobile : <input type="digit" name="mobile" placeholder="Mobile No." /><br />
+            <br />
+            <input type="radio" name="user" value="New user">New user
+            <input type="radio" name="user" value="Existing user">Existing user<br />
+            <br />
+            States <Select name="States">
+                <option value="Select">Select</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="West Bengal">West Bengal</option>
+                </selct><br />
+                <br />
+                Details:
+            </Select><br>
+            <textarea rows="5" cols="50" name="Details">
+        </textarea><br />
+            <br />
+            <input type="submit" name="submit" value="submit" />
+            <input type="Reset" name="Reset" value="Reset" /><br />
+            <br />
+            Not a user!
+            <a href="signup.html">Signup here</a><br />
+            <br />
+            Already a user!
+            <a href="signin.html">Login here</a>
+        </form>
+    </div>
+    <!--last section-->
+    <div class="r2" style="margin-right:8px">
+        <iframe width="90%" height="90%" src="https://www.youtube.com/embed/8qI21lKwx00" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="r2" style="margin-right:8px">
+        <p>As the instructions given by Indian Govt. and state Govt. ,the college is closed till 15th of April ,2020.
+        </p>
+    </div>
+    <div class="r2">
+        <img src="nsec add.jpeg" iframe width="90%" height="90%">
+    </div>
+
+    <div style="width: 100%; height: 50px; background-color: tan; float: left; margin-top: 20px; border-radius: 25px;">
+        <p>::Contents of this site Netaji Subhash Engineering College(NSEC) </p>
+    </div>
+    
+    
+</body>
+
+</html>
